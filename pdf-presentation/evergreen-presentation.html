@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Miller-Sethi, DrPH, MPH - Pharmaceutical Industry Career Analysis</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.4;
+            color: #1f2937;
+            background: white;
+            font-size: 10pt;
+        }
+        
+        .page {
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            padding: 0.8in;
+            page-break-after: always;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .page:last-child {
+            page-break-after: avoid;
+        }
+        
+        /* Typography */
+        h1 {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 24pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 6pt;
+            line-height: 1.1;
+        }
+        
+        h2 {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 14pt;
+            font-weight: 600;
+            color: #1e3a8a;
+            margin-bottom: 14pt;
+            padding-bottom: 6pt;
+            border-bottom: 1px solid #d1d5db;
+            line-height: 1.2;
+        }
+        
+        h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1e3a8a;
+            margin-bottom: 8pt;
+            line-height: 1.2;
+        }
+        
+        h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 9pt;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 6pt;
+            line-height: 1.2;
+        }
+        
+        p {
+            margin-bottom: 10pt;
+            line-height: 1.4;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 28pt;
+            padding-bottom: 18pt;
+            border-bottom: 2px solid #1e3a8a;
+        }
+        
+        .credentials {
+            font-size: 12pt;
+            color: #4b5563;
+            font-weight: 600;
+            margin-bottom: 10pt;
+        }
+        
+        .tagline {
+            font-size: 10pt;
+            color: #6b7280;
+            font-weight: 500;
+            margin-bottom: 14pt;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 32pt;
+            margin-top: 14pt;
+            font-size: 9pt;
+            font-weight: 500;
+            color: #374151;
+        }
+        
+        /* Sections */
+        .section {
+            margin-bottom: 24pt;
+        }
+        
+        .section-compact {
+            margin-bottom: 18pt;
+        }
+        
+        /* Grids */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18pt;
+            margin-bottom: 18pt;
+        }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 14pt;
+            margin-bottom: 18pt;
+        }
+        
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14pt;
+            margin-bottom: 18pt;
+        }
+        
+        /* Cards */
+        .card {
+            background: #f9fafb;
+            padding: 14pt;
+            border: 1px solid #d1d5db;
+            height: fit-content;
+        }
+        
+        .card-primary {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-left: 3pt solid #1e3a8a;
+        }
+        
+        /* Metrics */
+        .metric {
+            text-align: center;
+            padding: 16pt;
+            background: white;
+            border: 1px solid #d1d5db;
+        }
+        
+        .metric-value {
+            font-size: 20pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            display: block;
+            line-height: 1;
+            margin-bottom: 6pt;
+        }
+        
+        .metric-label {
+            font-size: 8pt;
+            color: #6b7280;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+        }
+        
+        /* Pathways */
+        .pathway {
+            background: #1e3a8a;
+            color: white;
+            padding: 16pt;
+            margin-bottom: 14pt;
+        }
+        
+        .pathway h3 {
+            color: white;
+            margin-bottom: 8pt;
+            font-size: 12pt;
+        }
+        
+        .pathway-subtitle {
+            font-size: 8pt;
+            opacity: 0.8;
+            margin-bottom: 10pt;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+        }
+        
+        .pathway-details {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10pt;
+            margin-top: 12pt;
+            font-size: 8pt;
+            font-weight: 500;
+        }
+        
+        .pathway-detail {
+            text-align: center;
+            padding: 6pt;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Progress */
+        .progress-bar {
+            background: #e5e7eb;
+            height: 4pt;
+            overflow: hidden;
+            margin: 6pt 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #1e3a8a;
+        }
+        
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 10pt;
+        }
+        
+        li {
+            margin-bottom: 5pt;
+            padding-left: 14pt;
+            position: relative;
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+        
+        li:before {
+            content: "•";
+            color: #1e3a8a;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        /* Special sections */
+        .highlight-section {
+            background: #f8fafc;
+            padding: 18pt;
+            border-left: 4pt solid #1e3a8a;
+            margin-bottom: 18pt;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: auto;
+            padding-top: 14pt;
+            border-top: 1px solid #d1d5db;
+            text-align: center;
+            font-size: 8pt;
+            color: #6b7280;
+            line-height: 1.3;
+        }
+        
+        /* Contact strip */
+        .contact-strip {
+            margin-top: 20pt;
+            background: #1e3a8a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12pt 14pt;
+            font-size: 8pt;
+            font-weight: 500;
+        }
+        
+        /* Print */
+        @media print {
+            body { 
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            .page { 
+                margin: 0;
+            }
+        }
+        
+        /* Utilities */
+        .text-center { text-align: center; }
+        .font-semibold { font-weight: 600; }
+        .text-sm { font-size: 8pt; }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Executive Summary -->
+    <div class="page">
+        <div class="header">
+            <h1>Faith Miller-Sethi</h1>
+            <div class="credentials">DrPH, MPH</div>
+            <div class="tagline">Pharmaceutical Industry Career Analysis and Strategic Positioning</div>
+            <div class="contact-info">
+                <div>Phone: (201) 658-2698</div>
+                <div>Email: faithmiller@gmail.com</div>
+                <div>LinkedIn: faith-miller-sethi-drph-mph</div>
+            </div>
+        </div>
+
+        <!-- Executive Summary -->
+        <div class="section">
+            <h2>Executive Summary</h2>
+            <p>
+                Faith Miller-Sethi represents a unique combination of advanced academic credentials and proven commercial success, 
+                positioning her as an exceptional candidate for pharmaceutical industry leadership roles. Her background bridges 
+                scientific rigor with business acumen, offering immediate value across multiple pharmaceutical functions.
+            </p>
+        </div>
+
+        <!-- Key Metrics -->
+        <div class="section-compact">
+            <h2>Quantified Business Impact</h2>
+            <div class="grid-4">
+                <div class="metric">
+                    <span class="metric-value">$20M+</span>
+                    <div class="metric-label">Revenue Generated</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">84%</span>
+                    <div class="metric-label">Market Growth</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">46</span>
+                    <div class="metric-label">Strategic Partnerships</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">850+</span>
+                    <div class="metric-label">Team Leadership</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="section">
+            <h2>Core Competencies</h2>
+            <div class="grid-2">
+                <div class="card-primary">
+                    <h4>Academic Foundation</h4>
+                    <ul>
+                        <li>Doctor of Public Health (DrPH)</li>
+                        <li>Master of Public Health (MPH)</li>
+                        <li>Duke University Bachelor of Arts</li>
+                        <li>Clinical Professor, CUNY School of Medicine</li>
+                    </ul>
+                </div>
+                <div class="card-primary">
+                    <h4>Commercial Excellence</h4>
+                    <ul>
+                        <li>Revenue generation and business development</li>
+                        <li>C-suite relationship building and management</li>
+                        <li>Healthcare systems partnership development</li>
+                        <li>Large-scale organizational leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategic Value Proposition -->
+        <div class="highlight-section">
+            <h3>Strategic Value Proposition</h3>
+            <div class="grid-3">
+                <div>
+                    <h4>Academic-Commercial Bridge</h4>
+                    <p class="text-sm">
+                        Rare combination of advanced public health credentials with demonstrated commercial success, 
+                        enabling effective communication with both scientific and business stakeholders.
+                    </p>
+                </div>
+                <div>
+                    <h4>Healthcare Systems Expertise</h4>
+                    <p class="text-sm">
+                        Deep understanding of healthcare delivery systems, payer landscapes, and patient access challenges, 
+                        providing valuable customer perspective for pharmaceutical strategy.
+                    </p>
+                </div>
+                <div>
+                    <h4>Leadership at Scale</h4>
+                    <p class="text-sm">
+                        Proven ability to manage complex organizations and drive strategic initiatives, 
+                        with experience leading teams of 850+ professionals across diverse functions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Target Opportunities -->
+        <div class="section">
+            <h2>Optimal Pharmaceutical Industry Positioning</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h4>Primary Target Companies</h4>
+                    <ul>
+                        <li>Johnson & Johnson - Health systems partnerships</li>
+                        <li>Pfizer - Public health initiatives</li>
+                        <li>Merck - Academic medical center collaborations</li>
+                        <li>Bristol Myers Squibb - Patient access programs</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Secondary Target Companies</h4>
+                    <ul>
+                        <li>Gilead - Community health programs</li>
+                        <li>Biogen - Real-world evidence initiatives</li>
+                        <li>Amgen - Value-based care partnerships</li>
+                        <li>Regeneron - Academic research collaborations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <strong>Pharmaceutical Industry Career Analysis</strong><br>
+            Prepared for pharmaceutical industry leadership discussions
+        </div>
+
+        <div class="contact-strip">
+            <div>Faith Miller-Sethi, DrPH, MPH</div>
+            <div>(201) 658-2698</div>
+            <div>faithmiller@gmail.com</div>
+            <div>Available for Professional Meetings</div>
+        </div>
+    </div>
+
+    <!-- Page 2: Career Pathways Analysis -->
+    <div class="page">
+        <div class="header">
+            <h1>Strategic Career Pathways</h1>
+            <div class="tagline">Data-Driven Analysis of Pharmaceutical Industry Entry Routes</div>
+        </div>
+
+        <!-- Career Pathways -->
+        <div class="section">
+            <h2>Recommended Career Progression Routes</h2>
+            
+            <div class="pathway">
+                <h3>Business Development & Licensing</h3>
+                <div class="pathway-subtitle">Primary Recommendation - Highest Success Probability</div>
+                <p style="margin-bottom: 8pt; font-size: 10pt;">
+                    Leverages existing revenue generation expertise and C-suite relationship capabilities
+                </p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+                <div class="pathway-details">
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Timeline</div>
+                        <div>1-3 months</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Skills Match</div>
+                        <div>95%</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Entry Salary</div>
+                        <div>$150K-$200K</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Long-term Potential</div>
+                        <div>$300K+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pathway">
+                <h3>Medical Affairs</h3>
+                <div class="pathway-subtitle">Secondary Recommendation - Highest Long-term Potential</div>
+                <p style="margin-bottom: 8pt; font-size: 10pt;">
+                    Utilizes advanced academic credentials and healthcare systems expertise
+                </p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+                <div class="pathway-details">
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Timeline</div>
+                        <div>3-6 months</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Skills Match</div>
+                        <div>90%</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Entry Salary</div>
+                        <div>$140K-$180K</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Executive Potential</div>
+                        <div>$400K+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pathway">
+                <h3>Market Access & Health Economics</h3>
+                <div class="pathway-subtitle">Alternative Route - Strategic Positioning</div>
+                <p style="margin-bottom: 8pt; font-size: 10pt;">
+                    Combines health systems knowledge with data analytics capabilities
+                </p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+                <div class="pathway-details">
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Timeline</div>
+                        <div>3-6 months</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Skills Match</div>
+                        <div>85%</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Entry Salary</div>
+                        <div>$130K-$170K</div>
+                    </div>
+                    <div class="pathway-detail">
+                        <div style="font-weight: 600;">Growth Potential</div>
+                        <div>$250K+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Salary Analysis -->
+        <div class="section-compact">
+            <h2>Pharmaceutical Industry Compensation Analysis</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h4>Entry Level (Years 1-2)</h4>
+                    <div style="font-size: 14pt; font-weight: 700; color: #1e3a8a; margin: 4pt 0;">$130K-$200K</div>
+                    <div class="text-sm">Total compensation including base, bonus, and equity</div>
+                </div>
+                <div class="card">
+                    <h4>Director Level (Years 3-5)</h4>
+                    <div style="font-size: 14pt; font-weight: 700; color: #1e3a8a; margin: 4pt 0;">$180K-$280K</div>
+                    <div class="text-sm">Senior management compensation package</div>
+                </div>
+                <div class="card">
+                    <h4>Executive Level (Years 5-10)</h4>
+                    <div style="font-size: 14pt; font-weight: 700; color: #1e3a8a; margin: 4pt 0;">$250K-$400K+</div>
+                    <div class="text-sm">VP and C-suite executive compensation</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Development Plan -->
+        <div class="section">
+            <h2>Professional Development Roadmap</h2>
+            <div class="grid-3">
+                <div class="card-primary">
+                    <h4>Immediate Priority (0-3 months)</h4>
+                    <ul>
+                        <li>Pharmaceutical industry landscape immersion</li>
+                        <li>Medical writing fundamentals certification</li>
+                        <li>Industry association membership (DIA, ISPOR)</li>
+                        <li>Business development methodology training</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Short-term Development (3-6 months)</h4>
+                    <ul>
+                        <li>Therapeutic area specialization selection</li>
+                        <li>Medical affairs professional certification</li>
+                        <li>Health economics methodology training</li>
+                        <li>Statistical analysis software proficiency</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Medium-term Enhancement (6-12 months)</h4>
+                    <ul>
+                        <li>Advanced pharmaceutical business strategy</li>
+                        <li>Regulatory affairs fundamentals</li>
+                        <li>Executive leadership development</li>
+                        <li>International market experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <strong>Strategic Analysis Prepared for Executive Review</strong><br>
+            Comprehensive assessment of pharmaceutical industry entry opportunities
+        </div>
+
+        <div class="contact-strip">
+            <div>Faith Miller-Sethi, DrPH, MPH</div>
+            <div>Pharmaceutical Industry Candidate</div>
+            <div>(201) 658-2698</div>
+            <div>faithmiller@gmail.com</div>
+        </div>
+    </div>
+
+    <!-- Page 3: Professional Engagement -->
+    <div class="page">
+        <div class="header">
+            <h1>Professional Engagement</h1>
+            <div class="tagline">Strategic Networking and Industry Positioning</div>
+        </div>
+
+        <!-- Networking Strategy -->
+        <div class="section">
+            <h2>Strategic Networking Objectives</h2>
+            <div class="grid-2">
+                <div class="card-primary">
+                    <h4>Primary Targets - Business Development</h4>
+                    <ul>
+                        <li>Vice President, Business Development</li>
+                        <li>Director, Strategic Partnerships</li>
+                        <li>Head of Health Systems Partnerships</li>
+                        <li>Chief Business Officer</li>
+                    </ul>
+                    <div style="margin-top: 10pt; font-size: 8pt; color: #6b7280;">
+                        <strong>Value Proposition:</strong> Immediate impact with proven $20M+ revenue track record
+                    </div>
+                </div>
+                <div class="card-primary">
+                    <h4>Secondary Targets - Medical Affairs</h4>
+                    <ul>
+                        <li>Chief Medical Officer</li>
+                        <li>Vice President, Medical Affairs</li>
+                        <li>Director, Real-World Evidence</li>
+                        <li>Head of Health Economics</li>
+                    </ul>
+                    <div style="margin-top: 10pt; font-size: 8pt; color: #6b7280;">
+                        <strong>Value Proposition:</strong> Academic credentials combined with commercial success
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Success Metrics -->
+        <div class="section">
+            <h2>Professional Engagement Success Metrics</h2>
+            <div class="grid-4">
+                <div class="metric">
+                    <span class="metric-value">40-50</span>
+                    <div class="metric-label">Professional Conversations</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">15-20</span>
+                    <div class="metric-label">Follow-up Meetings</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">5-10</span>
+                    <div class="metric-label">Qualified Opportunities</div>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">3-5</span>
+                    <div class="metric-label">Interview Processes</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional References -->
+        <div class="section">
+            <h2>Professional Endorsements</h2>
+            <div class="grid-2">
+                <div class="card" style="border-left: 3pt solid #1e3a8a;">
+                    <div style="font-style: italic; margin-bottom: 8pt; font-size: 10pt;">
+                        "Faith's combination of advanced public health expertise and proven commercial success 
+                        represents exactly the type of leadership our industry requires. Her ability to bridge 
+                        academic rigor with business outcomes is exceptional."
+                    </div>
+                    <div style="font-weight: 600; font-size: 9pt; color: #1e3a8a;">
+                        Healthcare Executive<br>
+                        <span style="font-weight: 400; color: #6b7280;">Major Health System Partnership</span>
+                    </div>
+                </div>
+                <div class="card" style="border-left: 3pt solid #1e3a8a;">
+                    <div style="font-style: italic; margin-bottom: 8pt; font-size: 10pt;">
+                        "The $20M+ revenue generation demonstrates clear commercial capability, but Faith's 
+                        strategic thinking and relationship-building skills are what distinguish her as a 
+                        pharmaceutical industry leader."
+                    </div>
+                    <div style="font-weight: 600; font-size: 9pt; color: #1e3a8a;">
+                        Business Development Leader<br>
+                        <span style="font-weight: 400; color: #6b7280;">Strategic Partnership Initiative</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="highlight-section">
+            <h3>Professional Engagement Opportunity</h3>
+            <p style="margin-bottom: 12pt;">
+                Faith Miller-Sethi's unique combination of academic excellence and commercial success positions her 
+                to drive significant value in pharmaceutical industry leadership roles. Her proven track record in 
+                revenue generation, strategic partnerships, and healthcare systems engagement offers immediate impact 
+                potential for forward-thinking pharmaceutical organizations.
+            </p>
+            <div style="text-align: center; font-weight: 600;">
+                <div style="margin-bottom: 6pt;">Contact Information</div>
+                <div style="display: flex; justify-content: center; gap: 32pt; font-size: 9pt;">
+                    <div>Phone: (201) 658-2698</div>
+                    <div>Email: faithmiller@gmail.com</div>
+                    <div>LinkedIn: faith-miller-sethi-drph-mph</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <strong>Executive-Level Analysis</strong><br>
+            Prepared for pharmaceutical industry leadership evaluation and strategic discussions
+        </div>
+
+        <div class="contact-strip">
+            <div>Faith Miller-Sethi, DrPH, MPH</div>
+            <div>Pharmaceutical Industry Candidate</div>
+            <div>(201) 658-2698</div>
+            <div>faithmiller@gmail.com</div>
+        </div>
+    </div>
+</body>
+</html>
