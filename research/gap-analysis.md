@@ -1,6 +1,6 @@
 # Skills Gap Analysis - Faith Miller-Sethi Pharmaceutical Career Mapping
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 Faith Miller-Sethi possesses exceptional foundational skills for pharmaceutical industry entry, with particular strength in business development, healthcare systems knowledge, and leadership. Her unique combination of advanced public health credentials (DrPH, MPH) and proven commercial success ($20M+ revenue generation) positions her as a high-value candidate across multiple pharmaceutical functions.
 
@@ -10,7 +10,7 @@ Faith Miller-Sethi possesses exceptional foundational skills for pharmaceutical 
 - **Medium-term Development** (6-12 months): Regulatory Affairs, Clinical Research
 - **Specialized Training Required**: R&D, Manufacturing, Pharmacovigilance
 
-## 📊 Skills-to-Roles Mapping Matrix
+##  Skills-to-Roles Mapping Matrix
 
 ### Legend
 - **🟢 Strong Match (90-100%)**: Immediate readiness, minimal additional training
@@ -108,7 +108,7 @@ Faith Miller-Sethi possesses exceptional foundational skills for pharmaceutical 
 | Project Management (PMP) | PMI | 3-6 months | $2,000-3,000 | Low |
 | Digital Health Certificate | Stanford Medicine | 4-6 months | $2,500-4,000 | Low |
 
-## 🚀 Career Entry Strategy
+##  Career Entry Strategy
 
 ### Recommended Approach: Multi-Track Strategy
 

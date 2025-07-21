@@ -11,7 +11,7 @@ The pharmaceutical industry is a complex ecosystem focused on the research, deve
 - **High Risk/High Reward**: Significant investment with uncertain outcomes
 - **Global Market**: Multinational operations with diverse regulatory requirements
 
-## 🎯 Core Pharmaceutical Functions
+##  Core Pharmaceutical Functions
 
 ### 1. Research & Development (R&D)
 
@@ -255,7 +255,7 @@ The pharmaceutical industry is a complex ecosystem focused on the research, deve
 - Health services research roles
 - Academic research positions
 
-## 📈 Industry Trends & Future Outlook
+##  Industry Trends & Future Outlook
 
 ### Emerging Areas
 1. **Precision Medicine**: Personalized therapies based on genetic profiles

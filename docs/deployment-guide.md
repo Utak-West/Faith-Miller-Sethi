@@ -1,6 +1,6 @@
 # Deployment Guide - Faith Miller-Sethi Career Mapping Project
 
-## 🚀 Vercel Deployment Instructions
+##  Vercel Deployment Instructions
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -199,7 +199,7 @@ Vercel automatically provides HTTPS. For custom domains:
 vercel env add FORCE_HTTPS true
 ```
 
-## 📊 Analytics & Monitoring
+##  Analytics & Monitoring
 
 ### Google Analytics Setup
 
@@ -274,7 +274,7 @@ Test on:
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🔄 Continuous Deployment
+##  Continuous Deployment
 
 ### GitHub Actions Workflow
 

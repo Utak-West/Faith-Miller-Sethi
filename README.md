@@ -1,11 +1,11 @@
 # Faith Miller-Sethi, DrPH, MPH
 ## Pharmaceutical Industry Career Transition Materials
 
-### 🎯 **Project Overview**
+###  **Project Overview**
 
 This repository contains comprehensive career transition materials for Faith Miller-Sethi's strategic entry into the pharmaceutical industry. The materials are designed to support executive-level networking, professional positioning, and career advancement opportunities within pharmaceutical companies.
 
-### 📋 **Repository Contents**
+###  **Repository Contents**
 
 #### **PDF Presentations**
 - **`evergreen-presentation.html`** - Timeless pharmaceutical industry positioning presentation
@@ -29,7 +29,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **Compensation Data** - Market research and salary benchmarks
 - **Visual Assets** - Professional graphics and design elements
 
-### 🎨 **Design Standards**
+###  **Design Standards**
 
 #### **Conservative Professional Aesthetic**
 - **Color Palette**: Navy (#1e3a8a), Gray (#6b7280), White (#ffffff)
@@ -43,7 +43,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **Conservative design standards** suitable for pharmaceutical executives
 - **Professional photography placement** for executive positioning
 
-### 📊 **Key Features**
+###  **Key Features**
 
 #### **Evergreen Content Strategy**
 - **No time-sensitive information** - suitable for perpetual use
@@ -63,7 +63,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **ROI metrics dashboard** - quantified professional impact
 - **90-day action plans** - immediate implementation strategies
 
-### 🚀 **Usage Instructions**
+###  **Usage Instructions**
 
 #### **For Networking Events**
 1. **Print PDF presentations** for high-quality leave-behind materials
@@ -83,7 +83,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 3. **Emphasize pharmaceutical industry readiness** and positioning
 4. **Highlight immediate contribution potential** and ROI
 
-### 📈 **Strategic Positioning**
+###  **Strategic Positioning**
 
 #### **Target Roles**
 - **Medical Affairs**: Chief Medical Officer, VP Medical Affairs, Director Real-World Evidence
@@ -101,7 +101,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **Short-term (3-6 months)**: Therapeutic area specialization
 - **Medium-term (6-12 months)**: Advanced business strategy and leadership
 
-### 🔧 **Technical Specifications**
+###  **Technical Specifications**
 
 #### **Web Technologies**
 - **HTML5/CSS3** - Modern web standards
@@ -115,7 +115,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **Markdown** - Documentation and project files
 - **Assets** - Professional graphics and visual elements
 
-### 📞 **Contact Information**
+###  **Contact Information**
 
 **Faith Miller-Sethi, DrPH, MPH**
 - **Email**: faith.millersethi@email.com
@@ -123,7 +123,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **LinkedIn**: /in/faith-miller-sethi
 - **Availability**: Professional meetings and networking opportunities
 
-### 📝 **Project Maintenance**
+###  **Project Maintenance**
 
 #### **Version Control**
 - **Main Branch**: Production-ready materials
@@ -135,7 +135,7 @@ This repository contains comprehensive career transition materials for Faith Mil
 - **Annual Updates**: Compensation data and industry trends
 - **Event-Specific**: Customizations for particular networking opportunities
 
-### 🏆 **Success Metrics**
+###  **Success Metrics**
 
 #### **Networking Objectives**
 - **40-50 Professional Conversations** per major networking event

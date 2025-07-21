@@ -1,10 +1,10 @@
 # Faith Miller-Sethi Pharmaceutical Industry Career Mapping Project
 
-## 🎯 Project Overview
+##  Project Overview
 
 This comprehensive career mapping project analyzes Faith Miller-Sethi's skills and experience to identify optimal pathways into the pharmaceutical industry. The project delivers both an interactive web application and a professional PDF presentation, designed to support her networking and career transition efforts at the National Sales Network conference (August 6-8, 2025) and beyond.
 
-## 🚀 Project Objectives
+##  Project Objectives
 
 ### Primary Goals
 1. **Comprehensive Skills Analysis**: Map Faith's existing qualifications across all pharmaceutical industry functions
@@ -34,7 +34,7 @@ This comprehensive career mapping project analyzes Faith Miller-Sethi's skills a
 - **Sales & Marketing**: Commercial strategy, brand management, sales operations
 - **Health Economics & Outcomes Research (HEOR)**: Real-world evidence, health technology assessment
 
-## 📋 Deliverables
+##  Deliverables
 
 ### 1. Interactive Web Application
 - **Technology**: Next.js (React) optimized for Vercel deployment
@@ -98,7 +98,7 @@ faith-pharma-career-mapping/
     └── conference-strategy.md  # Conference usage recommendations
 ```
 
-## 📊 Key Features
+##  Key Features
 
 ### Skills Analysis Engine
 - **Comprehensive Mapping**: All skills mapped to pharmaceutical functions
@@ -118,7 +118,7 @@ faith-pharma-career-mapping/
 - **Action Plans**: Specific next steps and recommendations
 - **Visual Impact**: Professional charts and infographics
 
-## 🎨 Design Standards
+##  Design Standards
 
 ### Visual Identity
 - **Color Palette**: Professional pharmaceutical industry colors (blues, teals, whites)
@@ -152,7 +152,7 @@ faith-pharma-career-mapping/
 - Final testing and quality assurance
 - Conference preparation materials
 
-## 🎯 Success Metrics
+##  Success Metrics
 
 ### Conference Objectives
 - **Networking Impact**: Enhanced conversation quality with industry professionals

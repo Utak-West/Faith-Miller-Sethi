@@ -13,7 +13,7 @@
 - **Population Health Perspective**: Understanding of health systems, epidemiology, and public health policy
 - **Leadership Training**: DrPH programs emphasize leadership and strategic thinking
 
-## 💼 Professional Experience Analysis
+##  Professional Experience Analysis
 
 ### 1. mySidewalk, Inc. - Director of Strategic Health Initiatives
 
@@ -127,7 +127,7 @@
 - Health equity and inclusion programs
 - Public-private partnerships
 
-## 🎯 Core Competency Analysis
+##  Core Competency Analysis
 
 ### Leadership & Management
 **Strength Level**: ⭐⭐⭐⭐⭐ (Exceptional)

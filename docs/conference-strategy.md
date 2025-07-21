@@ -1,13 +1,13 @@
 # Conference Strategy Guide - Faith Miller-Sethi
 
-## 🎯 National Sales Network Conference Overview
+##  National Sales Network Conference Overview
 
 **Event**: National Sales Network Conference
 **Dates**: August 6-8, 2025
 **Location**: Las Vegas, Nevada
 **Objective**: Transition from public health leadership to pharmaceutical industry roles
 
-## 🚀 Strategic Positioning
+##  Strategic Positioning
 
 ### Unique Value Proposition
 Faith Miller-Sethi represents a rare combination of:
@@ -23,7 +23,7 @@ Faith Miller-Sethi represents a rare combination of:
 4. **Regulatory Experience**: Government compliance and quality assurance background
 5. **Relationship Building**: Proven C-suite engagement and partnership development
 
-## 📋 Pre-Conference Preparation
+##  Pre-Conference Preparation
 
 ### Research & Intelligence Gathering
 
@@ -185,7 +185,7 @@ Faith Miller-Sethi represents a rare combination of:
 - **Material Sharing**: Automated delivery of PDF and web application links
 - **CRM Integration**: Track all interactions and opportunities
 
-## 📊 Success Metrics & KPIs
+##  Success Metrics & KPIs
 
 ### Quantitative Goals
 - **Conversations**: 40-50 meaningful networking conversations
@@ -207,7 +207,7 @@ Faith Miller-Sethi represents a rare combination of:
 - **Network Growth**: Sustained industry relationships
 - **Industry Entry**: Successful pharmaceutical role placement
 
-## 🔄 Post-Conference Action Plan
+##  Post-Conference Action Plan
 
 ### Immediate Follow-up (Within 48 hours)
 - Send personalized thank-you emails to all key contacts

@@ -1,10 +1,10 @@
 # Career Pathways - Faith Miller-Sethi Pharmaceutical Industry Transition
 
-## 🎯 Strategic Career Pathway Overview
+##  Strategic Career Pathway Overview
 
 Based on Faith Miller-Sethi's comprehensive skills analysis and gap assessment, we have identified five optimal career pathways into the pharmaceutical industry. Each pathway leverages her unique strengths while addressing specific skill development needs and market opportunities.
 
-## 🚀 Pathway 1: Business Development & Licensing (RECOMMENDED - FASTEST ENTRY)
+##  Pathway 1: Business Development & Licensing (RECOMMENDED - FASTEST ENTRY)
 
 ### Overview
 **Timeline to Entry**: 1-3 months  
@@ -270,7 +270,7 @@ Based on Faith Miller-Sethi's comprehensive skills analysis and gap assessment, 
 **Year 5-7**: Director Regulatory Affairs ($160K-$200K)
 **Year 8-10**: VP/Chief Regulatory Officer ($200K-$280K)
 
-## 🎯 Recommended Strategy: Multi-Track Approach
+##  Recommended Strategy: Multi-Track Approach
 
 ### Primary Track: Business Development (Immediate Focus)
 - **Rationale**: Highest probability of success, fastest entry, leverages core strengths
@@ -287,7 +287,7 @@ Based on Faith Miller-Sethi's comprehensive skills analysis and gap assessment, 
 - **Sales & Marketing**: If seeking faster entry with lower barriers
 - **Regulatory Affairs**: If interested in compliance and strategic regulatory roles
 
-## 📊 Success Metrics & Milestones
+##  Success Metrics & Milestones
 
 ### 3-Month Milestones
 - **Networking**: 100+ pharmaceutical industry LinkedIn connections
@@ -313,7 +313,7 @@ Based on Faith Miller-Sethi's comprehensive skills analysis and gap assessment, 
 - **Industry Recognition**: Speaking opportunities or industry involvement
 - **Strategic Planning**: Clear 5-year career advancement plan
 
-## 🔄 Pathway Optimization & Pivoting
+##  Pathway Optimization & Pivoting
 
 ### When to Pivot Between Pathways
 - **Market Conditions**: If hiring freezes or market changes affect primary pathway
@@ -327,7 +327,7 @@ Based on Faith Miller-Sethi's comprehensive skills analysis and gap assessment, 
 - **Market Access → Business Development**: Health economics skills valuable for partnerships
 - **Any Pathway → Leadership**: All pathways develop toward senior leadership roles
 
-## 📞 Implementation Support
+##  Implementation Support
 
 ### Immediate Next Steps
 1. **Pathway Selection**: Choose primary and secondary pathways based on personal preferences

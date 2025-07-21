@@ -1,6 +1,6 @@
 # Design Guidelines - Faith Miller-Sethi Career Mapping Project
 
-## 🎨 Visual Identity & Brand Standards
+##  Visual Identity & Brand Standards
 
 ### Color Palette
 
@@ -154,7 +154,7 @@
 }
 ```
 
-## 🎯 Component Design Standards
+##  Component Design Standards
 
 ### Buttons
 
@@ -252,7 +252,7 @@
 }
 ```
 
-## 📊 Data Visualization Standards
+##  Data Visualization Standards
 
 ### Chart Colors
 ```css
@@ -425,7 +425,7 @@
 }
 ```
 
-## 📋 Implementation Checklist
+##  Implementation Checklist
 
 ### Design System Implementation
 - [ ] CSS custom properties defined
